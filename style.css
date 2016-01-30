@@ -1,0 +1,286 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: Langdon;
+    src: url ('fonts/Langdon.otf');
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url('fonts/roboto/Roboto-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-BlackItalic';
+    src: url('fonts/roboto/Roboto-BlackItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('fonts/roboto/Roboto-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-BoldCondensed';
+    src: url('fonts/roboto/Roboto-BoldCondensed.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-BoldCondensedItalic';
+    src: url('fonts/roboto/Roboto-BoldCondensedItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-BoldItalic';
+    src: url('fonts/roboto/Roboto-BoldItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Condensed';
+    src: url('fonts/roboto/Roboto-Condensed.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-CondensedItalic';
+    src: url('fonts/roboto/Roboto-CondensedItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Italic';
+    src: url('fonts/roboto/Roboto-Italic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('fonts/roboto/Roboto-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url('fonts/roboto/Roboto-LightItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('fonts/roboto/Roboto-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-MediumItalic';
+    src: url('fonts/roboto/Roboto-MediumItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('fonts/roboto/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('fonts/roboto/Roboto-Thin.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-ThinItalic';
+    src: url('fonts/roboto/Roboto-ThinItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.navbar-header {
+    background-color: #FFFFFF;
+}
+
+.navbar-default {
+    color: #403E4C;
+    border-color: rgba(34,34,34,.05);
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.navbar-default .navbar-collapse {
+   background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+    color: #403E4C;
+    background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+    color: #222;
+}
+
+.navbar-default .nav > li>a,
+.navbar-default .nav>li>a:focus {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #222;
+    background-color: #FFFFFF;
+}
+
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
+    color: #403E4C;
+    background-color: #FFFFFF;
+}
+
+.navbar-default .nav > li.active>a,
+.navbar-default .nav>li.active>a:focus {
+    color: #403E4C!important;
+    background-color: #FFFFFF;
+}
+
+.navbar-default .nav > li.active>a:hover,
+.navbar-default .nav>li.active>a:focus:hover {
+    background-color: #FFFFFF;
+
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        border-color: rgba(255,255,255,.3);
+        background-color: #FFFFFF;
+        color: #403E4C;
+    }
+
+    .navbar-default .navbar-header .navbar-brand {
+/*        color: rgba(255,255,255,.7);*/
+        color: #403E4C;
+    }
+
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: #222;
+        background-color: #FFFFFF;
+    }
+
+    .navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+/*        color: rgba(255,255,255,.7);*/
+        color: #403E4C;
+    }
+
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #222;
+    }
+
+    .navbar-default.affix {
+        border-color: rgba(34,34,34,.05);
+        background-color: #FFFFFF;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand {
+        font-size: 14px;
+        color: #403E4C;
+        background-color: #FFFFFF;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand:hover,
+    .navbar-default.affix .navbar-header .navbar-brand:focus {
+        color: #403E4C;
+    }
+
+    .navbar-default.affix .nav > li>a,
+    .navbar-default.affix .nav>li>a:focus {
+        color: #222;
+    }
+
+    .navbar-default.affix .nav > li>a:hover,
+    .navbar-default.affix .nav>li>a:focus:hover {
+        color: #403E4C;
+    }
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    background-image: url(img/header-pic.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .intro {
+    position: relative;
+    width: 100%;
+    padding-top: 250px;
+    text-align: center;
+}
+
+header .intro #intro-title h1 {
+    font-family: Langdon;
+    text-transform: uppercase;
+    font-size: 120px;
+    text-shadow: 1px 1px #403E4C;
+    letter-spacing: .05em;
+}
+
+header .intro #intro-copy p {
+    margin: 20px 120px 60px;
+    font-family: Roboto-Light;
+    font-size: 22px;
+/*    text-shadow: 1px 1px #403E4C;*/
+}
+
+header .intro #products-button {
+    padding: 15px;
+    background-color: #940315;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-size: 26px;
+    border: 2px solid #940315;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+header .intro #products-button:hover {
+    background-color: #5C0009;
+    border: 2px solid #5C0009;
+}
