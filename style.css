@@ -127,7 +127,7 @@ body {
 .navbar-default {
     color: #403E4C;
     border-color: rgba(34,34,34,.05);
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: Langdon;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -139,24 +139,25 @@ body {
 
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-weight: 700;
+    font-family: Langdon;
+    font-size: 28px;
     color: #403E4C;
     background-color: #FFFFFF;
+    line-height: 28px;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #222;
+    color: #66637A;
 }
 
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 700;
-    color: #222;
+    font-size: 20px;
+    color: #66637A;
     background-color: #FFFFFF;
+    margin-top: 5px;
 }
 
 .navbar-default .nav > li>a:hover,
@@ -191,7 +192,7 @@ body {
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #222;
+        color: #66637A;
         background-color: #FFFFFF;
     }
 
@@ -203,7 +204,7 @@ body {
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #222;
+        color: #66637A;
     }
 
     .navbar-default.affix {
@@ -224,7 +225,7 @@ body {
 
     .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
-        color: #222;
+        color: #66637A;
     }
 
     .navbar-default.affix .nav > li>a:hover,
@@ -259,7 +260,7 @@ header .intro #intro-title h1 {
     text-transform: uppercase;
     font-size: 120px;
     text-shadow: 1px 1px #403E4C;
-    letter-spacing: .05em;
+/*    letter-spacing: .05em;*/
 }
 
 header .intro #intro-copy p {
@@ -270,17 +271,16 @@ header .intro #intro-copy p {
 }
 
 header .intro #products-button {
-    padding: 15px;
+    padding: 15px 15px 10px 15px;
     background-color: #940315;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-size: 26px;
-    border: 2px solid #940315;
+    font-family: Langdon;
+    font-size: 28px;
+    border: 2px solid #FFF;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: bold;
+    transition: all 0.3s ease-out;
+    border-radius: 8px;
 }
 
 header .intro #products-button:hover {
-    background-color: #5C0009;
-    border: 2px solid #5C0009;
+    background: #5C0009;
 }
