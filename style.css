@@ -339,6 +339,7 @@ header .intro #products-button:hover {
     background-color: #403E4C;
     font-family: 'Roboto-Light';
     font-size: 20px;
+    padding-bottom: 30px;
 }
 
 #contact h2 {
@@ -353,4 +354,16 @@ header .intro #products-button:hover {
 
 #contact strong {
     font-family: 'Roboto-Regular';
+}
+
+#contact .icons {
+    margin-top: 30px;
+}
+
+#contact .icons p {
+    font-size: 18px;
+}
+
+#contact #contact-address {
+    margin-top: 30px;
 }
