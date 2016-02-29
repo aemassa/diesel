@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="fonts/font-awesome-4.5.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body id="page-top">
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -27,10 +27,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#page-top">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Products</a>
+                        <a class="page-scroll" href="#products">Products</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -51,7 +51,7 @@
                 Diesel Engineering is a family-owned business located in western Massachusetts. We specialize in the rebuilding of AMBAC (formerly American Bosch) M100 heads and rotors, Stanadyne heads and rotors and the manufacturing of high-performance tractor pulling M100 heads.
               </p>
             </div>
-            <button type="button" id="products-button" href="#">Products</button>
+            <button type="button" id="products-button" href="#products" onclick="window.location.href='#products'">Products</button>
         </div>
     </header>
     <section id="products">
@@ -66,7 +66,7 @@
         <div class="container product-row" id="product-row-1">
             <div class="row">
                 <div class="col-lg-4">
-                    <img src="img/m100-pic.jpg" class="product-photo">
+                    <img src="img/m100-pic-cropped.jpg" class="product-photo">
                 </div>
                 <div class="col-lg-3">
                     <h3 class="product-section-heading">M100 heads and rotors</h3>
@@ -91,7 +91,7 @@
         <div class="container product-row" id="product-row-2">
             <div class="row">
                 <div class="col-lg-4">
-                    <img src="img/stanadyne-pic.jpg" class="product-photo">
+                    <img src="img/stanadyne-pic-cropped.jpg" class="product-photo">
                 </div>
                 <div class="col-lg-8">
                     <h3 class="product-section-heading">Stanadyne DB style head and rotor assembly</h3>
@@ -105,10 +105,15 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 text-center">
-          <p class="product-footer">All our fuel injection heads and rotors are supplied with new plungers, rotors and sleeves. No chrome plating is used. Heads come with a full one-year replacement warranty.<br><br>Other capabilities: High-precision grinding, lapping and measuring down to the 0.000010". <br><br>Please <a href="#">contact us</a> for pricing and details.</p>
-          </div>
+        <div class="container product-row" id="product-row-3">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="img/plunger-cropped.jpg" class="product-photo">
+                </div>
+                <div class="col-lg-8">
+                  <p class="product-footer">All our fuel injection heads and rotors are supplied with new plungers, rotors and sleeves. Plungers are made in the USA. No chrome plating is used. Heads come with a full one-year replacement warranty.<br><br>Other capabilities: High-precision grinding, lapping and measuring down to the 0.000010". <br><br>Please <a href="#">contact us</a> for pricing and details.</p>
+                </div>
+            </div>
         </div>
     </section>
     <section class="bg-primary" id="contact">
@@ -119,6 +124,7 @@
                     <hr class="light">
                     <p class="contact-content">Feel free to contact us if you have any questions about our products and services.</p>
                 </div>
+              <div class="col-lg-8 col-lg-offset-2 text-center">
                 <div class="col-lg-4 text-center icons">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
                     <p>Phone: (413) 781-7100</p>
@@ -131,6 +137,7 @@
                     <i class="fa fa-envelope fa-3x wow bounceIn"></i>
                     <p>Email: <a href="mailto:avukalovic@aol.com">avukalovic@aol.com</a></p>
                 </div>
+              </div>
             </div>
             <div class="row" id="contact-address">
               <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -139,10 +146,30 @@
             </div>
         </div>
     </section>
-
-
-
-
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <img src="img/building-cropped.jpg" class="img-responsive bottom-photo">
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <img src="img/keith-cropped.jpg" class="img-responsive bottom-photo">
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <img src="img/sign-cropped.jpg" class="img-responsive bottom-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row" id="copyright">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                &copy; 2016 Diesel Engineering, Inc.
+                </div>
+            </div>
+        </div>
+    </section>
   <!-- Scripts -->
   <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
