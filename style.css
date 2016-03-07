@@ -242,7 +242,7 @@ header .intro #intro-title h1 {
     font-family: Langdon;
     text-transform: uppercase;
 /*    font-size: 120px;*/
-    font-size: 80px;
+    font-size: 68px;
     text-shadow: 1px 1px #403E4C;
 }
 
@@ -373,7 +373,7 @@ header .intro #products-button:hover {
     position: relative;
     margin: 0 auto;
     max-width: 650px;
-    max-height: 350px;
+/*    max-height: 350px;*/
 
 }
 
