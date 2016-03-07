@@ -373,13 +373,15 @@ header .intro #products-button:hover {
     position: relative;
     margin: 0 auto;
     max-width: 650px;
-/*    max-height: 350px;*/
-
 }
 
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
+}
+
+.bottom-photo {
+    margin: 0 auto;
 }
 
 #copyright {
@@ -397,6 +399,11 @@ header .intro #products-button:hover {
     header .intro #intro-copy p {
         margin: 20px 60px 60px;
         font-size: 22px;
+    }
+    #contact #phone-link {
+        text-decoration: none;
+        cursor: text;
+        color: #FFF;
     }
 
 }
